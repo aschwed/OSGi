@@ -1,34 +1,27 @@
 package org.dhbw.se.table.component;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.dhbw.se.table.api.MovieListConverter;
 import org.dhbw.se.table.ui.TableUI;
 
 public class TableComponent {
 
-	private List<MovieListConverter> converters = new ArrayList<>();
+	private TableUI tableUI;
+
+	public TableComponent() {
+		super();
+		tableUI = new TableUI();
+	}
 
 	public void bindConverterService(MovieListConverter converter) {
-		converters.add(converter);
+		tableUI.addConverter(converter);
 	}
 
 	public void unbindConverterService(MovieListConverter converter) {
-		converters.remove(converter);
+		tableUI.removeConverter(converter);
 	}
-	
+
 	public void activate() {
-
-		new Thread() {
-
-			@Override
-			public void run() {
-				TableUI.startUI(converters);
-			}
-
-		}.start();
-
+		tableUI.startUI();
 	}
 
 }

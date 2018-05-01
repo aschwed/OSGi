@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" name="OSGI_table_gui">
-   <implementation class="org.dhbw.se.table.component.TableComponent"/>
-   <reference bind="bindConverterService" cardinality="1..n" interface="org.dhbw.se.table.api.MovieListConverter" name="MovieListConverter" policy="dynamic" unbind="unbindConverterService"/>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0"
+	activate="activate" name="OSGI_table_gui">
+	<implementation class="org.dhbw.se.table.component.TableComponent" />
+	<reference bind="bindConverterService" cardinality="1..n"
+		interface="org.dhbw.se.table.api.MovieListConverter" name="MovieListConverter"
+		policy="dynamic" unbind="unbindConverterService" />
 </scr:component>
