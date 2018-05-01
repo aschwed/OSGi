@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGI_converter_xml
+Bundle-SymbolicName: OSGI_converter_xml
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.dhbw.se.table.api
+Service-Component: OSGI-INF/component.xml
