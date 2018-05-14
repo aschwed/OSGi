@@ -33,7 +33,7 @@ Here you can see the UI containing a sample data table, a dropdown menu with ava
 
 Now we are going to extend functionality and add a new module to convert the data to markdown. All we need to do is to create a new project (which is also an OSGi bundle), to define dependencies and provide the bundle as a service component.
 
-![Screenshot8](s08_new_project.PNG)
+![Screenshot8](s08_new _project.PNG)
 
 Be sure to run your plug-in with an OSGi framework (Equinox).
 
