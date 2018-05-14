@@ -23,7 +23,7 @@ Specific OSGi bundles such as Equinox console are available now and will start t
 ### 3.Run the project
 Select Run as the OSGi framework option.
 
-![Screenshot6](s06_run_as.PNG)
+![Screenshot6](s06_run_as.png)
 
 Here you can see the UI containing a sample data table, a dropdown menu with available formats and a convert button. You can choose a format and convert the data.
 
