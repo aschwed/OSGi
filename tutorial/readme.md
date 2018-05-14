@@ -48,7 +48,7 @@ Save!
 ### 6. Create new class
 Next you need to create the implementation class. You don't need to write code, just copy it.:)
 
-![Screenshot11](s01_create_class.PNG)
+![Screenshot11](s11_create_class.PNG)
 
 ```java
 package demo;
