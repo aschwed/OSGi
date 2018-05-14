@@ -113,14 +113,16 @@ Choose the implementation class as well.
 To declare a service choose the service tab, click the Add button and select the MovieListConverter interface. Now the markdown converter service can be registered, and an instance of the class will be created.
 ![Screenshot14](s14_declare_service.PNG)
 
+
 ### 9. Run the application again and see what happens next
 
 ![Screenshot15](s15_result.PNG)
 
+
 ### 10. Now you can use the OSGi consoleand control your bundles dynamically.
 Use the following commands: ss, bundle<id>, start bundle <id>, stop bundle <id>
 
-![Screenshot1](s01_git_clone.PNG)
+
 
 
 
