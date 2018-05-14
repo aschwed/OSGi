@@ -26,6 +26,7 @@ Select Run as the OSGi framework option.
 ![Screenshot6](s06_run_as.PNG)
 
 Here you can see the UI containing a sample data table, a dropdown menu with available formats and a convert button. You can choose a format and convert the data.
+
 ![Screenshot7](s07_running.PNG)
 
 ### 4. Create a new bundle
