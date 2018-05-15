@@ -31,7 +31,7 @@ Here you can see the UI containing a sample data table, a dropdown menu with ava
 
 ### 4. Create a new bundle
 
-Now we are going to extend functionality and add a new module to convert the data to markdown. All we need to do is to create a new project (which is also an OSGi bundle), to define dependencies and provide the bundle as a service component.
+Now we are going to extend functionality and add a new module to convert the data to markdown. All we need to do is to create a new project (which is also an OSGi bundle), to define dependencies and provide a service component.
 
 ![Screenshot8](s08_new _project.PNG)
 
