@@ -10,7 +10,7 @@
 ![Screenshot3](s03_importprojects.PNG)
 
 ### 2.Set a target platform
-### OSGI_table_gui->Open file OsgiTargetDefinition.target->Set as active target platform (upper right corner)
+OSGI_table_gui->Open file OsgiTargetDefinition.target->Set as active target platform (upper right corner)
 Specific OSGi bundles such as Equinox console are available now and will start together with user defined bundles.
 
 
