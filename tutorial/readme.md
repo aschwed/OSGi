@@ -122,6 +122,8 @@ To declare a service choose the service tab, click the Add button and select the
 
 ### 10. Now you can use the OSGi consoleand control your bundles dynamically.
 Use the following commands: ss, bundle<id>, start bundle <id>, stop bundle <id>
+![Screenshot16](s16_console.PNG)
+	
 
 
 
